@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Face404</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="d-flex justify-content-center align-items-center vh-100">
+  <div class="text-center">
+    <h1><strong>世界で一番不細工な人</strong></h1>
+    <p>ボタンをクリックすると世界一不細工な人が表示されます。</p>
+    <div class="d-grid gap-2 mx-auto" style="max-width: 300px;">
+      <button id="button" class="btn btn-primary" type="button">表示する</button>
+    </div>
+    <div id="overlay" style="
+  display:none;
+  position:fixed;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  background-color:#000;  /* 真っ黒 */
+  z-index:1050;
+"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
